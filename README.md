@@ -1,4 +1,4 @@
-# gaoptimize
+# Dido
 
 Solution to Dido's Problem.
 
