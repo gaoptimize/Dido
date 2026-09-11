@@ -1,0 +1,147 @@
+{
+  "gabriel_horn": {
+    "name": "Capped Gabriel horn",
+    "target_length": 3.0,
+    "no_optimizer_by_design": true,
+    "optimizer_success": null,
+    "frames": [
+      {
+        "stage": "INITIAL",
+        "note": "center X = 3",
+        "length": 3.0,
+        "area": 7.559501409363012,
+        "J": 253.7600741913116
+      },
+      {
+        "stage": "INTERMEDIATE",
+        "note": "center X = 6",
+        "length": 3.0,
+        "area": 11.946893916509378,
+        "J": 32816.51539538974
+      },
+      {
+        "stage": "ESCAPING",
+        "note": "center X = 12",
+        "length": 3.0,
+        "area": 16.317219207649693,
+        "J": 2255459.8769808044
+      }
+    ]
+  },
+  "hamilton_cigar": {
+    "name": "Hamilton cigar soliton",
+    "target_length": 6.283185307179586,
+    "no_optimizer_by_design": true,
+    "optimizer_success": null,
+    "frames": [
+      {
+        "stage": "INITIAL",
+        "note": "center \u03c1 = 2.0",
+        "length": 6.283185307179586,
+        "area": 8.344336122369368,
+        "J": 0.41283713455030535
+      },
+      {
+        "stage": "INTERMEDIATE",
+        "note": "center \u03c1 = 3.2",
+        "length": 6.283185307179586,
+        "area": 15.761592296417508,
+        "J": 0.041177812269866824
+      },
+      {
+        "stage": "ESCAPING",
+        "note": "center \u03c1 = 4.6",
+        "length": 6.283185307179586,
+        "area": 24.548115563129286,
+        "J": 0.0025372178983583877
+      }
+    ]
+  },
+  "hyperbolic_cusp": {
+    "name": "Hyperbolic cusp",
+    "target_length": 2.0,
+    "no_optimizer_by_design": false,
+    "optimizer_success": true,
+    "frames": [
+      {
+        "stage": "INITIAL",
+        "note": "seed",
+        "length": 2.0536728275177785,
+        "area": 0.7512668986351316,
+        "J": 2699501.0962293455
+      },
+      {
+        "stage": "INTERMEDIATE",
+        "note": "SLSQP iterate 1",
+        "length": 2.960224163390033,
+        "area": 1.6168610436974937,
+        "J": 2587602.9421067378
+      },
+      {
+        "stage": "OPTIMIZED",
+        "note": "converged, 39 iterations",
+        "length": 2.0000000000000404,
+        "area": 1.9999999999999811,
+        "J": 7.550808295404447e-09
+      }
+    ]
+  },
+  "paraboloid": {
+    "name": "Paraboloid",
+    "target_length": 6.0,
+    "no_optimizer_by_design": false,
+    "optimizer_success": true,
+    "frames": [
+      {
+        "stage": "INITIAL",
+        "note": "seed",
+        "length": 6.961814924422599,
+        "area": 5.4152937483066586,
+        "J": 101.62413913433042
+      },
+      {
+        "stage": "INTERMEDIATE",
+        "note": "SLSQP iterate 14",
+        "length": 6.140788104877021,
+        "area": 4.869001595491898,
+        "J": 17.350134171449884
+      },
+      {
+        "stage": "OPTIMIZED",
+        "note": "converged, 214 iterations",
+        "length": 6.000000000000099,
+        "area": 4.7225003955241815,
+        "J": 1.2383983529036813e-10
+      }
+    ]
+  },
+  "ring_torus": {
+    "name": "Ring torus",
+    "target_length": 4.0,
+    "no_optimizer_by_design": false,
+    "optimizer_success": true,
+    "frames": [
+      {
+        "stage": "INITIAL",
+        "note": "seed   \u03b8 centre = +1.571",
+        "length": 4.000000000000178,
+        "area": 1.2699222566524746,
+        "J": 6.066969625038668
+      },
+      {
+        "stage": "INTERMEDIATE",
+        "note": "SLSQP iterate 21   \u03b8 centre = +0.669",
+        "length": 4.0858937914014355,
+        "area": 1.3050231485789558,
+        "J": 9525593500.004086
+      },
+      {
+        "stage": "OPTIMIZED",
+        "note": "converged, 358 iterations   \u03b8 centre = +0.019",
+        "length": 4.000000000000038,
+        "area": 1.3063003609647843,
+        "J": 0.0013939164888382054
+      }
+    ]
+  }
+}
