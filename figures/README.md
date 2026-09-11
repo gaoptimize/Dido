@@ -1,8 +1,10 @@
-# Figures
+# Visualizations
 
 Wireframe campaign for Dido relaxation on five exotic manifolds.
 
-Generator: [`dido_wireframe_figures.py`](dido_wireframe_figures.py) — Claude 5 (Anthropic), 11 September 2026.
+Claude 5 (Anthropic), visualizations · Grok Heavy (xAI), editor
+
+Generator: [`dido_wireframe_figures.py`](dido_wireframe_figures.py) — Claude 5, 11 September 2026.
 
 Every curve is produced by the campaign modules (SLSQP iterates on the cusp, paraboloid, and torus; exact length-constrained sweeps on the horn and cigar, which have no optimizer by design). Numbers on each panel are measured by that module’s own length / area / jerk routines.
 
