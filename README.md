@@ -11,6 +11,7 @@ Landing page (search / Scholar bait): https://gaoptimize.github.io/Dido/
 
 ## Files
 
+- [`dido_overview.pdf`](dido_overview.pdf) — Dido's Problem: Technical Overview
 - [`dido_merged_2026-09-08.pdf`](dido_merged_2026-09-08.pdf) — original effort (also on Zenodo)
 - [`dido_relaxation_exotic_surfaces.pdf`](dido_relaxation_exotic_surfaces.pdf) — the paper
 - [`dido_to_design_of_experiments.pdf`](dido_to_design_of_experiments.pdf) — concept note: From Dido's Boundary to Experimental Design
