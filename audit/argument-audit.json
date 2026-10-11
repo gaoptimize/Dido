@@ -1,0 +1,179 @@
+{
+  "all_checks_pass": true,
+  "checks": [
+    {
+      "kind": "LOGICAL",
+      "name": "attainment_hypothesis",
+      "passed": true,
+      "requirement": "A global optimizer theorem must assume or separately prove attainment.",
+      "value": "required"
+    },
+    {
+      "kind": "LOGICAL",
+      "name": "regular_case",
+      "passed": true,
+      "requirement": "The fundamental lemma forces constant geodesic curvature.",
+      "value": "delta A=lambda delta L => 1=lambda*kappa_g"
+    },
+    {
+      "kind": "LOGICAL",
+      "name": "singular_case",
+      "passed": true,
+      "requirement": "A singular length gradient also gives constant geodesic curvature.",
+      "value": "delta L=0 for all f => kappa_g=0"
+    },
+    {
+      "kind": "LOGICAL",
+      "name": "energy_conclusion",
+      "passed": true,
+      "requirement": "The attained smooth maximizer minimizes J absolutely.",
+      "value": "kappa_g constant => J=integral |d_s kappa_g|^2 ds=0"
+    },
+    {
+      "kind": "LOGICAL",
+      "name": "local_scope",
+      "passed": true,
+      "requirement": "The local area-deficit estimate is relative to that local maximum.",
+      "value": "fixed normal coordinates; nondegenerate local maximum"
+    },
+    {
+      "kind": "LOGICAL",
+      "name": "global_scope",
+      "passed": true,
+      "requirement": "No global deficit conclusion follows from J alone.",
+      "value": "J does not select among disconnected/local zero-energy candidates"
+    },
+    {
+      "kind": "ANALYTIC",
+      "name": "pole_values",
+      "passed": true,
+      "requirement": "a=r near the south pole and a=9-r near the north pole.",
+      "value": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "ANALYTIC+SAMPLED",
+      "name": "profile_positive",
+      "passed": true,
+      "requirement": "a(r)>0 in the open interval; analytic lower bound is 3/4 on interior supports.",
+      "value": 0.00044999999999995044
+    },
+    {
+      "kind": "ANALYTIC",
+      "name": "prescribed_jets",
+      "passed": true,
+      "requirement": "a=1+(r-r_i)/2 on |r-r_i|<=1/4.",
+      "value": {
+        "r=2": [
+          1.0,
+          0.5,
+          0.0
+        ],
+        "r=6": [
+          1.0,
+          0.5,
+          0.0
+        ]
+      }
+    },
+    {
+      "kind": "ANALYTIC",
+      "name": "equal_length",
+      "passed": true,
+      "requirement": "Both boundaries have length 2*pi.",
+      "value": [
+        6.283185307179586,
+        6.283185307179586
+      ]
+    },
+    {
+      "kind": "ANALYTIC",
+      "name": "regular_constraint",
+      "passed": true,
+      "requirement": "delta L(1)=pi is nonzero.",
+      "value": 3.141592653589793
+    },
+    {
+      "kind": "ANALYTIC",
+      "name": "zero_energy",
+      "passed": true,
+      "requirement": "Both parallels have constant kappa_g=1/2.",
+      "value": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "ANALYTIC",
+      "name": "gauss_bonnet",
+      "passed": true,
+      "requirement": "Boundary pi plus bulk pi equals 2*pi.",
+      "value": 6.283185307179586
+    },
+    {
+      "kind": "ANALYTIC",
+      "name": "nondegenerate_spectrum",
+      "passed": true,
+      "requirement": "lambda_n=n^2-1/4 >= 3/4 for nonconstant modes.",
+      "value": [
+        0.75,
+        3.75,
+        8.75,
+        15.75,
+        24.75,
+        35.75,
+        48.75,
+        63.75
+      ]
+    },
+    {
+      "kind": "NUMERICAL-CROSSCHECK",
+      "name": "area_integral",
+      "passed": true,
+      "requirement": "Odd corrections cancel analytically, so integral_2^6 a(r)dr=4.",
+      "value": {
+        "integral": 4.0,
+        "quad_error": 4.440892098500626e-14
+      }
+    },
+    {
+      "kind": "ANALYTIC",
+      "name": "exact_area_gap",
+      "passed": true,
+      "requirement": "A(D2)-A(D1)=2*pi*4=8*pi.",
+      "value": 25.132741228718345
+    },
+    {
+      "kind": "ANALYTIC",
+      "name": "global_bound_impossible",
+      "passed": true,
+      "requirement": "Any finite omega with omega(0)=0 gives a false bound at D1.",
+      "value": {
+        "deficit_lower_bound": 25.132741228718345,
+        "omega_of_J": 0.0
+      }
+    },
+    {
+      "kind": "NUMERICAL-REGRESSION",
+      "name": "nonlinear_local_maximum",
+      "passed": true,
+      "requirement": "Exact-length nearby nonconstant graphs satisfy Delta A <= -1/2 int(u')^2 < 0.",
+      "value": {
+        "largest_area_change": -4.0660181126870786e-05,
+        "smallest_margin": 1.5813663126703894e-05,
+        "trials": 48
+      }
+    },
+    {
+      "kind": "NUMERICAL-REGRESSION",
+      "name": "perturbations_have_positive_J",
+      "passed": true,
+      "requirement": "Nonconstant sampled graphs have positive curvature-variation energy.",
+      "value": 0.001418755031146905
+    }
+  ],
+  "conclusion": "The attained-maximizer implication and repaired local theorem are logically represented; the smooth-sphere witness proves that J alone cannot certify global area optimality. Finite computation remains a regression audit, not a proof of universal quantified statements.",
+  "program": "dido_argument_audit.py"
+}

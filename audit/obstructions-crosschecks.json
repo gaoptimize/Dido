@@ -1,0 +1,39 @@
+{
+  "method": "4096 equally spaced periodic points; Brent solve for constant exact-length correction; spectral derivative of the exact polar-graph curvature formula in the linear collar. Floating-point crosscheck, not certification.",
+  "predicted_limits": {
+    "c": -0.5,
+    "area_change": -2.356194490192345,
+    "J": 1.7671458676442586
+  },
+  "samples": [
+    {
+      "epsilon": 0.04,
+      "length_residual": -8.881784197001252e-16,
+      "c_over_epsilon_squared": -0.5001000500316016,
+      "area_change_over_epsilon_squared": -2.3561945530718553,
+      "J_over_epsilon_squared": 1.7786989278374548
+    },
+    {
+      "epsilon": 0.02,
+      "length_residual": 0.0,
+      "c_over_epsilon_squared": -0.5000250031255568,
+      "area_change_over_epsilon_squared": -2.3561944941204946,
+      "J_over_epsilon_squared": 1.7700216317655992
+    },
+    {
+      "epsilon": 0.01,
+      "length_residual": 0.0,
+      "c_over_epsilon_squared": -0.500006250194297,
+      "area_change_over_epsilon_squared": -2.3561944904313994,
+      "J_over_epsilon_squared": 1.7678640299843822
+    },
+    {
+      "epsilon": 0.005,
+      "length_residual": -5.329070518200751e-15,
+      "c_over_epsilon_squared": -0.5000015625752875,
+      "area_change_over_epsilon_squared": -2.356194490604117,
+      "J_over_epsilon_squared": 1.7673253596019451
+    }
+  ],
+  "nonlinear_stability_constant": 0.6834977045450736
+}
