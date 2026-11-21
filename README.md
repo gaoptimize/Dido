@@ -2,15 +2,13 @@
 
 Solution to Dido's Problem.
 
-GPT by Open AI (Sol and Astra), Author
-Grok Heavy (xAI), Editor
-Claude 5 (Anthropic), visualizations
-Thomas Mark Schaefer, Human Advisor
+Thomas Mark Schaefer, with the assistance of GPT 5.2 and Astra, Claude Opus 5.5, and Grok Build and Heavy.
 
 Landing page (search / Scholar bait): https://gaoptimize.github.io/Dido/
 
 ## Files
 
+- [`dido_publication_review.pdf`](dido_publication_review.pdf) — consolidated review draft, 20 November 2026: least-variation implication, local control, and global obstructions
 - [`dido_overview.pdf`](dido_overview.pdf) — Dido's Problem: Technical Overview
 - [`dido_audit.pdf`](dido_audit.pdf) — audit of hypotheses and possible broader solutions (working research note)
 - [`dido_obstructions.pdf`](dido_obstructions.pdf) — precise obstructions to a universal boundary-based solution (working proof note)
