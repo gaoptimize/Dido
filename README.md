@@ -1,6 +1,6 @@
 # Dido
 
-Solution to Dido's Problem.
+Curvature Variation, Witnesses, and Global Obstructions.
 
 Thomas Mark Schaefer, with the assistance of GPT 5.2 and Astra, Claude Opus 5.5, and Grok Build and Heavy.
 
